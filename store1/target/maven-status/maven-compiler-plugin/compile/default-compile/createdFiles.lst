@@ -1,0 +1,14 @@
+org\bean\Empleado.class
+org\bean\DetalleVenta.class
+org\interfaces\iCliente.class
+org\bean\Producto.class
+org\dao\clienteImpl.class
+org\bean\Categoria.class
+org\bean\Cliente.class
+org\principal\Store1.class
+org\servicio\Conectar.class
+org\test\PruebasUnitarias.class
+org\interfaces\iCalculos.class
+org\dao\calcularImpl.class
+org\bean\Proveedor.class
+org\bean\Venta.class
