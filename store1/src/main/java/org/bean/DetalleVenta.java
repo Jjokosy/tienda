@@ -50,6 +50,15 @@ public class DetalleVenta implements Serializable {
     public DetalleVenta() {
     }
 
+    public DetalleVenta(Integer idDetalleVenta, String cantidad, String detalle, Producto idProducto, Venta idVenta) {
+        this.idDetalleVenta = idDetalleVenta;
+        this.cantidad = cantidad;
+        this.detalle = detalle;
+        this.idProducto = idProducto;
+        this.idVenta = idVenta;
+    }
+
+    
     public DetalleVenta(Integer idDetalleVenta) {
         this.idDetalleVenta = idDetalleVenta;
     }

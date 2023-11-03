@@ -44,6 +44,13 @@ public class Proveedor implements Serializable {
     public Proveedor() {
     }
 
+    public Proveedor(Integer idProveedor, String nombre, List<Producto> productoList) {
+        this.idProveedor = idProveedor;
+        this.nombre = nombre;
+        this.productoList = productoList;
+    }
+
+    
     public Proveedor(Integer idProveedor) {
         this.idProveedor = idProveedor;
     }

@@ -50,6 +50,7 @@ public class Cliente implements Serializable {
         this.ventaList = ventaList;
     }
 
+    
     public Cliente(Integer idCliente) {
         this.idCliente = idCliente;
     }

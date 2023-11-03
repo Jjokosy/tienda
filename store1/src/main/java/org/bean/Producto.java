@@ -30,8 +30,8 @@ import javax.persistence.Table;
     @NamedQuery(name = "Producto.findAll", query = "SELECT p FROM Producto p"),
     @NamedQuery(name = "Producto.findByIdProducto", query = "SELECT p FROM Producto p WHERE p.idProducto = :idProducto"),
     @NamedQuery(name = "Producto.findByNombre", query = "SELECT p FROM Producto p WHERE p.nombre = :nombre"),
-    @NamedQuery(name = "Producto.findByStock", query = "SELECT p FROM Producto p WHERE p.stock = :stock"),
-    @NamedQuery(name = "Producto.findByPrecio", query = "SELECT p FROM Producto p WHERE p.precio = :precio")})
+    @NamedQuery(name = "Producto.findByPrecio", query = "SELECT p FROM Producto p WHERE p.precio = :precio"),
+    @NamedQuery(name = "Producto.findByStock", query = "SELECT p FROM Producto p WHERE p.stock = :stock")})
 public class Producto implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -42,10 +42,10 @@ public class Producto implements Serializable {
     private Integer idProducto;
     @Column(name = "nombre", length = 45)
     private String nombre;
-    @Column(name = "stock")
-    private Integer stock;
     @Column(name = "precio")
     private Short precio;
+    @Column(name = "stock")
+    private Integer stock;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "idProducto")
     private List<DetalleVenta> detalleVentaList;
     @JoinColumn(name = "idCategoria", referencedColumnName = "idCategoria", nullable = false)
@@ -58,6 +58,17 @@ public class Producto implements Serializable {
     public Producto() {
     }
 
+    public Producto(Integer idProducto, String nombre, Short precio, Integer stock, List<DetalleVenta> detalleVentaList, Categoria idCategoria, Proveedor idProveedor) {
+        this.idProducto = idProducto;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.stock = stock;
+        this.detalleVentaList = detalleVentaList;
+        this.idCategoria = idCategoria;
+        this.idProveedor = idProveedor;
+    }
+
+    
     public Producto(Integer idProducto) {
         this.idProducto = idProducto;
     }
@@ -78,20 +89,20 @@ public class Producto implements Serializable {
         this.nombre = nombre;
     }
 
-    public Integer getStock() {
-        return stock;
-    }
-
-    public void setStock(Integer stock) {
-        this.stock = stock;
-    }
-
     public Short getPrecio() {
         return precio;
     }
 
     public void setPrecio(Short precio) {
         this.precio = precio;
+    }
+
+    public Integer getStock() {
+        return stock;
+    }
+
+    public void setStock(Integer stock) {
+        this.stock = stock;
     }
 
     public List<DetalleVenta> getDetalleVentaList() {

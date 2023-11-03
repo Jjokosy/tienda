@@ -5,10 +5,10 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import org.bean.Cliente;
-import org.interfaces.iCliente;
+import org.interfaces.iMetodos;
 import org.servicio.Conectar;
 
-public class clienteImpl implements iCliente{
+public class clienteImpl implements iMetodos<Cliente>{
 
     private EntityManager entityManager(){
         return Conectar.getConectar().getEmf().createEntityManager();

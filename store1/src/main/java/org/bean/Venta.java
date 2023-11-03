@@ -56,6 +56,15 @@ public class Venta implements Serializable {
     public Venta() {
     }
 
+    public Venta(Integer idVenta, Date fecha, Cliente idCliente, Empleado idEmpleado, List<DetalleVenta> detalleVentaList) {
+        this.idVenta = idVenta;
+        this.fecha = fecha;
+        this.idCliente = idCliente;
+        this.idEmpleado = idEmpleado;
+        this.detalleVentaList = detalleVentaList;
+    }
+
+    
     public Venta(Integer idVenta) {
         this.idVenta = idVenta;
     }

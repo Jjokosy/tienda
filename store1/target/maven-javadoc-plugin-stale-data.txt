@@ -1,0 +1,64 @@
+@options
+@packages
+-classpath
+'C:/Users/Jordy/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/2.7.12/org.eclipse.persistence.core-2.7.12.jar;C:/Users/Jordy/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.4.0/org.eclipse.persistence.asm-9.4.0.jar;C:/Users/Jordy/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.antlr/2.7.12/org.eclipse.persistence.antlr-2.7.12.jar;C:/Users/Jordy/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/2.7.12/org.eclipse.persistence.jpa-2.7.12.jar;C:/Users/Jordy/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/2.7.12/org.eclipse.persistence.jpa.jpql-2.7.12.jar;C:/Users/Jordy/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.moxy/2.7.12/org.eclipse.persistence.moxy-2.7.12.jar;C:/Users/Jordy/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.3/jakarta.persistence-2.2.3.jar;C:/Users/Jordy/.m2/repository/com/mysql/mysql-connector-j/8.2.0/mysql-connector-j-8.2.0.jar;C:/Users/Jordy/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar;C:/Users/Jordy/.m2/repository/junit/junit/4.12/junit-4.12.jar;C:/Users/Jordy/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'20'
+-sourcepath
+'C:/Users/Jordy/Documents/trabajosGit/store1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Jordy/Documents/trabajosGit/store1/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'store1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'store1 1.0-SNAPSHOT API'
+org.bean
+org.dao
+org.interfaces
+org.principal
+org.servicio
+org.test
+C:\Users\Jordy\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.12\org.eclipse.persistence.core-2.7.12.jar = 1698441068095
+C:\Users\Jordy\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.4.0\org.eclipse.persistence.asm-9.4.0.jar = 1698441068137
+C:\Users\Jordy\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.12\org.eclipse.persistence.antlr-2.7.12.jar = 1698441068225
+C:\Users\Jordy\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.12\org.eclipse.persistence.jpa-2.7.12.jar = 1698441068447
+C:\Users\Jordy\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.12\org.eclipse.persistence.jpa.jpql-2.7.12.jar = 1698441068299
+C:\Users\Jordy\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.12\org.eclipse.persistence.moxy-2.7.12.jar = 1698441068266
+C:\Users\Jordy\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar = 1698441068170
+C:\Users\Jordy\.m2\repository\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.jar = 1698809921440
+C:\Users\Jordy\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar = 1694753541687
+C:\Users\Jordy\.m2\repository\junit\junit\4.12\junit-4.12.jar = 1698901121667
+C:\Users\Jordy\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1698901121698
+C:\Users\Jordy\Documents\trabajosGit\store1\src\main\java = 1698784993457
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\allclasses-index.html = 1698958488650
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\allpackages-index.html = 1698958488653
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\copy.svg = 1698958488698
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\element-list = 1698958488441
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\help-doc.html = 1698958488690
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\index-all.html = 1698958488680
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\index.html = 1698958488629
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\member-search-index.js = 1698958488659
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\module-search-index.js = 1698958488655
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\overview-summary.html = 1698958488685
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\overview-tree.html = 1698958488623
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\package-search-index.js = 1698958488657
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\script.js = 1698958488695
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\search-page.js = 1698958488703
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\search.html = 1698958488681
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\search.js = 1698958488701
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\serialized-form.html = 1698958488523
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\stylesheet.css = 1698958488692
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\tag-search-index.js = 1698958488661
+C:\Users\Jordy\Documents\trabajosGit\store1\target\site\apidocs\type-search-index.js = 1698958488658

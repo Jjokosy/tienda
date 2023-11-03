@@ -44,6 +44,13 @@ public class Empleado implements Serializable {
     public Empleado() {
     }
 
+    public Empleado(Integer idEmpleado, String nombre, List<Venta> ventaList) {
+        this.idEmpleado = idEmpleado;
+        this.nombre = nombre;
+        this.ventaList = ventaList;
+    }
+
+    
     public Empleado(Integer idEmpleado) {
         this.idEmpleado = idEmpleado;
     }
